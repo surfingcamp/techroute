@@ -14,7 +14,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
+    # The type of runner that the job will run onzhege 
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -32,9 +32,9 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          #repository-name: surfingcamp/techroute-publish
+          repository-name: surfingcamp/techroute-publish
           branch: gh-pages # The branch the action should deploy to.
           folder: www # The folder the action should deploy.
-          # clean: true
-          # single-commit: true
-          # token: ${{ secrets.ACCESS_TOKEN }}
+          clean: true
+          single-commit: true
+          token: ${{ secrets.ACCESS_TOKEN }}
