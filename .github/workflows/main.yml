@@ -32,9 +32,9 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          repository-name: surfingcamp/techroute-publish
-          branch: master # The branch the action should deploy to.
+          #repository-name: surfingcamp/techroute-publish
+          branch: gh-pages # The branch the action should deploy to.
           folder: www # The folder the action should deploy.
-          clean: true
-          single-commit: true
-          token: ${{ secrets.ACCESS_TOKEN }}
+          # clean: true
+          # single-commit: true
+          # token: ${{ secrets.ACCESS_TOKEN }}
