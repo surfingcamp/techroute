@@ -37,4 +37,4 @@ jobs:
           folder: www # The folder the action should deploy.
           clean: true
           single-commit: true
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: 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  # 这个要替换成真实的仓库名字
