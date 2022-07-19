@@ -34,7 +34,7 @@ jobs:
         with:
           repository-name: surfingcamp/techroute-publish
           # 如果是本仓库就用gh-pages 如果是publish仓库就用master
-          branch: master # The branch the action should deploy to.
+          branch: gh-pages111 # The branch the action should deploy to.
           folder: www # The folder the action should deploy.
           clean: true
           single-commit: true
