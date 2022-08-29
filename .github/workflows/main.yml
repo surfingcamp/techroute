@@ -32,7 +32,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          repository-name: surfingcamp/techroute-publish
           # 如果是本仓库就用gh-pages 如果是publish仓库就用master
           branch: gh-pages # The branch the action should deploy to.
           folder: www # The folder the action should deploy.
