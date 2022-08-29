@@ -34,8 +34,10 @@ jobs:
         with:
           repository-name: surfingcamp/techroute-publish
           # 如果是本仓库就用gh-pages 如果是publish仓库就用master
-          branch: master # The branch the action should deploy to.
+          branch: gh-pages # The branch the action should deploy to.
           folder: www # The folder the action should deploy.
           clean: true
           single-commit: true
-          token: ${{secrets.TECHROUTE4PUBLISHFROMGITHUB}}  # 这个要替换成真实的仓库名字
+          # 如果放到本仓库指定分支下面两项可以不用配置
+          #repository-name: surfingcamp/techroute-publish
+          #token: ${{secrets.TECHROUTE4PUBLISHFROMGITHUB}}  # 这个要替换成真实的仓库名字
