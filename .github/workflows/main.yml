@@ -38,5 +38,6 @@ jobs:
           clean: true
           single-commit: true
           # 如果放到本仓库指定分支下面两项可以不用配置
+          # 为什么把下面注释呢？是因为发布到另一个仓库会报authentication   surfingcamp/techroute-publish 报错不知道什么原因就先不解决了
           #repository-name: surfingcamp/techroute-publish
           #token: ${{secrets.TECHROUTE4PUBLISHFROMGITHUB}}  # 这个要替换成真实的仓库名字
