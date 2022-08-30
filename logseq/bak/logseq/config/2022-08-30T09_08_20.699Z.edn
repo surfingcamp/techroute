@@ -9,7 +9,7 @@
  ;; Preferred workflow style.
  ;; Value is either ":now" for NOW/LATER style,
  ;; or ":todo" for TODO/DOING style.
- :preferred-workflow :todo
+ :preferred-workflow :now
 
  ;; The app will ignore those directories or files.
  ;; E.g. "/archived" "/test.md"
@@ -41,7 +41,7 @@
  ;; Regardless of whether you've set any page to public or not.
  ;; Example:
  :publishing/all-pages-public? true
- ;; :default-home {:page "README" :sidebar ["contents"]}
+ :default-home {:page "README" :sidebar ["contents"]}
  ;; Specify default home page and sidebar status for Logseq
  ;; If not specified, Logseq default opens journals page on startup
  ;; value for `:page` is name of page
@@ -56,7 +56,7 @@
  ;; 2. Setup page "Jun 3rd, 2021" as home page without sidebar
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Setup page "home" as home page with multiple pages in sidebar
- :default-home {:page "README" :sidebar ["MenuBar"]}
+ ;; :default-home {:page "home" :sidebar ["page a" "page b"]}
 
  ;; Tell logseq to use a specific folder in the repo as a default location for notes
  ;; if not specified, notes are stored in `pages` directory
@@ -106,7 +106,7 @@
  :ui/show-command-doc? true
 
  ;; Whether to show empty bullets for non-document mode (the default mode)
- :ui/show-empty-bullets? true
+ :ui/show-empty-bullets? false
 
  ;; The app will show those queries in today's journal page,
  ;; the "NOW" query asks the tasks which need to be finished "now",
@@ -177,8 +177,7 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites ["编程入门-学习群-简介" "W1-环境部署" "W2-Python基本语法" "git的3个重要的全局配置" "Vercel常用命令" "V2Ray" "学习目标" "书单" "Git" "Logseq"]
- :journal/page-title-format "yyyy-MM-dd"
+ :favorites ["How to take dummy notes?"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
