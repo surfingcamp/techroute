@@ -1,5 +1,8 @@
+title:: Outline:设计模式
+
 - **工厂模式**
   id:: 628b4837-4526-4bac-92bf-b306bb3f48f1
+  collapsed:: true
 	- 为什么要用工厂而不是直接new一个对象
 		- 隐藏细节
 		- 延迟对象初始化：Spring三级缓存那里ObjectFactory有切面的话才会生成动态代理
@@ -11,6 +14,7 @@
 		  关于抽象工厂我觉得重点在于产品族，就是AbstractCourseFactory里面有两个抽象方法，abstract createNote(); abstract createVideo();这样能够创建course写既有note也有video并且Note和Video随时被定制。
 - 单例模式
   id:: 628b6c9c-f21c-4d5f-ab05-a4a9a429db69
+  collapsed:: true
 	- 饿汉式
 		- 静态代码
 		- 静态成员 static final  xxx = new HungrySingleton();
@@ -79,9 +83,10 @@
 	- 精准通知：改进参考`MouseEventLisenter`：实现不同事件通知不同监听者
 - 状态模式
 	- 例子：
-	  怎么保证状态变化对应的行为会变化:public void handle() {
+	  怎么保证状态变化对应的行为会变化:
+	  ``public void handle() {
 	          this.currentState.handle(); 然后设置状态
-	  }
+	  }``
 - 中介者
 	- 体会：都是把服务注入到Registry，通过registry.get("cService")就可以执行是因为如果是字符串那么这个字符串可以来源于配置中心
 - 建造者模式
@@ -91,9 +96,4 @@
 - 访问者模式：
 	- 访问者，对于固定数据结构为什么要固定，就比如BusinessReport里就这几种员工
 - 总结：
-  不要为了设计模式而设计模式，设计模式会增加代码复杂度会增加很多的类阅读起来可能会相对麻烦一些
-	-
-	-
-	-
-	-
-	-
+  不要为了设计模式而设计模式，设计模式会增加代码复杂度会增加很多的类阅读起来可能会相对麻烦一些。
