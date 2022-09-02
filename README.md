@@ -9,9 +9,9 @@
 	- 设计原则： [[Outline:七大软件设计原则]]
 	- 设计模式: [[Outline:设计模式]]
 - ## 理解最基础框架Spring：
-	- Spring的基本使用操作
+	- Spring的基本使用操作： [[Outline:Spring的基本操作]] 
 	  知道Spring干了什么
-	- 自己写一个简单的Spring
+	- 自己写一个简单的Spring 
 	  理解其背后设计思想
 	- Spring高级使用
 	  注解编程
