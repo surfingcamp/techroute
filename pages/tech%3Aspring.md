@@ -9,6 +9,7 @@ title:: tech:spring
 		  这个扩展点干什么？修改BeanPostProcessor
 			- 重要子接口：SmartInstantiationAwareBeanPostProcessor
 - DI:生成Bean，如果有属性怎么设置
+  comments::
 	- 构造函数设值
 	- 方法设值
 - AOP：如果你想调用一个方法之前执行一段其他逻辑，比如加一个日志比如加一个事物
