@@ -1,4 +1,4 @@
-title:: Outline:Mybatis基础使用
+title:: Outline:Mybatis使用(p4)
 
 - 为什么使用mybatis
   title:: Outline:Mybatis
@@ -9,7 +9,7 @@ title:: Outline:Mybatis基础使用
 - mybatis基本和高级使用
   配置不用全部讲呀，后面用到再来讲
 - 动态SQL
-- 复杂SWL
+- 复杂SQL
 	- 关联查询
 	- 批量操作
 	- 分页
@@ -20,5 +20,3 @@ title:: Outline:Mybatis基础使用
 - 事物管理及其与Spring继承
 - 手写
   也可以先手写一遍然后呢？在讲到对应源码
-	-
--

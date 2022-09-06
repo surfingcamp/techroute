@@ -32,9 +32,5 @@
 		- [[Outline:SpringBoot内置容器]]
 		- [[Outline:SpringBoot自动装配原理]]
 - ## 最常用的ORM框架：Mybatis
-- Mybatis基础使用 [[Outline:Mybatis基础使用]]
-- ## 并发编程
-- ## JVM
--
--
--
+	- [[Outline:Mybatis使用(p4)]]
+	-
