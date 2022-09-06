@@ -37,11 +37,3 @@ title:: tech:spring
 			  ProxyFactoryDemo调试 -> DefaultAopProxyFactory.createAopProxy(）有判断是通过JDKDynamic还是CGlib（核心使用ProxyFactory.getProxy来创建动态代理对象的）
 	- 调用时候我要拿到advice执行增强的逻辑，比如打印日志比如开启事物
 		- `this.adivised.getInterceptorsAndDynamicInterceptionAdvice(method,targetClass)`
-		-
-		-
-	-
-	-
-	-
-	-
-	-
-	-
