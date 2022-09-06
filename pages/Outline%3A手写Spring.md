@@ -1,7 +1,7 @@
 title:: Outline:手写Spring
 
 - 前提：对于Spring的基本用法有一些了解
-- Spring生命周期
+- 怎么把加了@
 	- 自动生成Bean从class文件 -> BeanDefintion ->生成Bean  -->放入到容器里Map里
 		- class --> BeanDefinition过程中有扩展点BeanFactoryPostProcessor
 		  这个扩展点能干什么？修改BeanDefintion?
