@@ -21,8 +21,8 @@
 	  id:: 64583fe8-05a4-47a4-8621-e20dd07ec8b2
 	- 面试难点剖析：循环依赖 [[Outline:循环依赖]]
 - ## 应用开发基本组件：SpringBoot
-	- 怎么使用SpringBoot
-	- SpringBoot解决了什么问题
+	- 怎么使用SpringBoot [[p4:SpringBoot基本使用]]
+	- TODO SpringBoot解决了什么问题
 	- 自己动手写一个SpringBoot Starter
 	  会总结写一个Spring Boot Starter 应该注意的地方
 	- SpringBoot高级使用
@@ -32,7 +32,7 @@
 		- [[Outline:SpringBoot内置容器]]
 		- [[Outline:SpringBoot自动装配原理]]
 - ## 最常用的ORM框架：Mybatis
--
+- Mybatis基础使用 [[Outline:Mybatis基础使用]]
 - ## 并发编程
 - ## JVM
 -
