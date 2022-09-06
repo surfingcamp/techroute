@@ -1,12 +1,14 @@
 title:: Outline:手写Spring
 
 - 前提：对于Spring的基本用法有一些了解
-- 怎么把加了@
+- 背景：
+	- 以前怎么创建一个对象
+	  > 自己手动new
+	- 现在使用Spring后不用自己new 对象了
+- 思考：怎么把加了@Controller @Service放到Spring IOC容器中自动生成Bean
 	- 自动生成Bean从class文件 -> BeanDefintion ->生成Bean  -->放入到容器里Map里
-		- class --> BeanDefinition过程中有扩展点BeanFactoryPostProcessor
-		  这个扩展点能干什么？修改BeanDefintion?
-			- BeanDefinitionRegistryProcessor
-		- BeanDefintion -> Bean 有扩展点BeanPostProcessor接口
+		- class --> BeanDefinition过程这其中可以有扩展点BeanFactoryPostProcessor（参考： [[Outline:SpringBeanFactoryPostProcessor]] ）
+		- BeanDefintion -> Bean 有扩展点BeanPostProcessor接口（参考 [[Outline:Spring:BeanPostProcessor]] ）
 		  这个扩展点干什么？修改BeanPostProcessor
 			- 重要子接口：SmartInstantiationAwareBeanPostProcessor
 - DI:生成Bean，如果有属性怎么设置
