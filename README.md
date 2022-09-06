@@ -13,13 +13,13 @@
 	  知道Spring干了什么
 	- 自己写一个简单的Spring： [[Outline:手写Spring]] 
 	  理解其背后设计思想
-	- Spring高级使用
+	- TODO Spring高级使用 等待先把基本 使用先列出来
 	  注解编程
-	- Spring的生命周期
+	- Spring的生命周期 [[Outline:Spring生命周期]] 
 	  需要加深一点
-	- 应用剖析：Spring事务
+	- 应用剖析：Spring事务 [[Outline:Spring事务]]
 	  id:: 64583fe8-05a4-47a4-8621-e20dd07ec8b2
-	- 面试难点剖析：循环依赖
+	- 面试难点剖析：循环依赖 [[Outline:循环依赖]]
 - ## 应用开发基本组件：SpringBoot
 	- SpringBoot解决了什么问题
 	- 自己动手写一个SpringBoot Starter
