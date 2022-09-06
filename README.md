@@ -28,7 +28,9 @@
 	- SpringBoot高级使用
 	- SpringBoot原理分析
 		- [[Outline:SpringBoot启动流程]]
-		- [[Outline:]]
+		- [[Outline:SpringBoot配置文件加载]]
+		- [[Outline:SpringBoot内置容器]]
+		- [[Outline:SpringBoot自动装配原理]]
 - ## 最常用的ORM框架：Mybatis
 - ## 并发编程
 - ## JVM
