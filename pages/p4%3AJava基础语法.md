@@ -30,3 +30,5 @@ title:: p4:Java基础语法
 		- instance of因为多态我要判断一个对象具体什么类型
 			- 写个代码对instance of 理解加深
 	- final static
+	  > 从java 基础语法 理解final static就可以
+	- 接口  instance：
