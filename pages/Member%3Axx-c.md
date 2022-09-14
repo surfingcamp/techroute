@@ -3,14 +3,14 @@ title:: Member:xx-c
 - 具体情况：
 	- 学习：
 		- 有一个基本体系有节奏有一个路线
-			- TODO 设计 (找一下)
+			- 设计
 				- 代理模式
 				- 装饰器模式
 				- 单例模式
-			- Spring
+			- **Spring**
 			- SpringBoot
-			- Redis
-			- Mysql
+			- **Redis**
+			- **Mysql**
 			- RocketMq
 			- 微服务
 		- 把你的疑问记录下来 解决自己疑问（不要别人你脑子塞），**你自己疑问> 塞**
@@ -34,11 +34,10 @@ title:: Member:xx-c
 			- 为了面试把一些常见的疑难问题收集过来：
 				- 事务失效： [[Outline:Spring事务]]
 				- mysql优化：需要了解mysql索引的机制 [[Outline:Mysql]]
-				- redis分布式锁
 			- **工作中遇到的问题**
 			- 沟通表达 注意力：
 				- 卡片笔记法：
-					- flomo 你先用起来 --> 疑问告诉你反馈
+					- flomo 你先用起来 --> 有了疑问再反馈
 	- 微服务的技术点（自研）
 		- RPC
 		- 配置中心：
