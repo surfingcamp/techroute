@@ -1,15 +1,18 @@
 title:: Member:xx-c
 
 - 具体情况：
-	- 学习
+	- 学习：
 		- 有一个基本体系有节奏有一个路线
 			- 设计模式
-				- 代理
+				- 代理模式
+				- 装饰器模式
+				- 单例模式
 			- Spring
 			- SpringBoot
 			- Redis
 			- Mysql
-			- RocketMq 微服务
+			- RocketMq
+			- 微服务
 		- 把你的疑问记录下来 解决自己疑问（不要别人你脑子塞），**你自己疑问> 塞**
 			- 疑问怎么解决，自己解决或者 老师点拨一下
 		- 知识 ---> 产生效果 -->生活变得更好
@@ -32,13 +35,13 @@ title:: Member:xx-c
 				- 事务失效： [[Outline:Spring事务]]
 				- mysql优化：需要了解mysql索引的机制 [[Outline:Mysql]]
 				- redis分布式锁
-				- TODO
+			- 工作中遇到的问题
 	- 微服务的技术点（自研）
 		- RPC
 		- 配置中心：
 		- 注册中心： [[tech:nacos]]
 	- 卡片笔记法：
-		- flomo
+		- flomo 你先用起来 --> 疑问告诉你反馈
 		-
 - 职业规划
 	- 短期：
