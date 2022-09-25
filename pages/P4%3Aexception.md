@@ -9,5 +9,7 @@ title:: P4:exception
 	- 使用的时候不要把异常扩大了- 声明异常：告诉别人这里可能会抛出这样异常你要进行处理[[$blue]]^^【video:20211012异常:1h:12min】^^
 - 声明异常：告诉别人这里可能会抛出这样异常你要进行处理[[$blue]]==【video:20211012异常:1h】==
 - finally使用场景：参考 [[$blue]]==【video:20211012异常:1h:18min】==
+	- try catch finally，finally改变不了要return的结果【code:ExceptionDemo11.java】
+		- 设计初衷是，所有业务逻辑放在try 和catch里finally只做清理，业务操作放在finally不起作用
 -
 -
