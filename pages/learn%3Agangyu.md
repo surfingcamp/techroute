@@ -49,8 +49,10 @@ title:: learn:gangyu
 				- 看了下ResultSet怎么返回封装成对象的，这里是你们公司自己开发的是基于JDBC（大概知道做了什么就可以
 					- 这个做得更好的是Mybatis框架，所以你可以Mybatis框架，看了Mybatis再回过头看这段代码就更明白了。
 		- 延展分析：解决SQL注入问题：
-			- 这里公司代码为什么使用PrepareStatment为什么不用Statement（因为要通过PrepareStatement解决SQL注入问题）
-				- 这里是你们公司代码：![b97c168d1052b0c08e798ac72d6533b.jpg](../assets/b97c168d1052b0c08e798ac72d6533b_1666406033021_0.jpg)
+			- 你们公司代码为什么使用PrepareStatment为什么不用Statement（因为要通过PrepareStatement解决SQL注入问题）
+				- 下面这里是你们公司代码： ![image.png](../assets/image_1666429314124_0.png)
+				- 所以你要清楚什么是注入问题，怎么发生的
+				- SQL注入问题怎么
 	- 登录模块怎么做的
 		- 怎么判断一个用户是否登录了：具体是一个用户注册登录后，后面继续访问的时候怎么判断它已经登录了后面不用再继续登录了
 			- 通过什么来存储登录信息的，通过redis还是java自带的session

@@ -6,3 +6,8 @@ title:: tech:Jwt
   " https://diigo.com/0oqwr8
 - JWT token是网络上都可以看见的，如果另一个人拿到token直接请求是不是也能够登录呢？
 	- 解决办法：真实客户端通过js代码拿到浏览器所在的ip地址，然后把这个ip地址设值到payload里去，服务端从request对象里拿到ip地址（这个是请求自带的）然后跟payload里的ip地址比较。如果是另一个用户B截取了payload里的ip地址改不了，而B对应请求的的request对象ip是 ipB那么在服务端匹配的时候肯定通不过。
+-
+- 双token机制
+	- 为什么双token机制因为想实现无感知刷新，比如短token30分钟 长token2天，这两个token都可以代表我登录过了。
+		- 如果到29分钟我要刷新怎么办？
+		- TODO 如果31分钟我刷新了怎么办？
