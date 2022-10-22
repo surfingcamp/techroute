@@ -2,7 +2,8 @@ public:: true
 title:: learn:gangyu
 
 - title:: learn:gangyu
-- 我的
+- 我的想法
+	- 分析自身状况 和工作中用到的，然后有针对性的学习感觉比纯粹刷视频要好
 - 让别人知道你对你的行业挺了解
 	- 公司业务是干什么？
 	- 公司业务是怎么样的？是业务逻辑复杂还是并发量很高
@@ -17,10 +18,12 @@ title:: learn:gangyu
 		- 数据怎么展示到页面上
 			- 通过freemarker 模板，把数据写到模板里渲染成页面
 	- Java程序
-		- 基于封装的Spring嘛？
+		- Java程序是基于Spring封装的嘛？
 			- TODO 如果想了解Spring IOC 和AOP 那么参考[[Outline:手写Spring]] ，自己手写一个Spring
 				- 当然手写Spring之前要先把Spring的基本使用用会，请看对应Spring课程（待完善）
-		- 怎么一来外部jar包的，比如我需要使用redis希望使用redis jar包怎么依赖进来的？有没有遇到过知道要使用redis但是不知道选哪个版本的问题。
+			- 从你们项目了解到的事实好像是你们公司自己写了个类似Spring的框架：
+				-
+		- 如果依赖外部jar包的，比如我需要使用redis希望使用redis jar包怎么依赖进来的？有没有遇到过知道要使用redis但是不知道选哪个版本的问题。
 			- 这块写代码是可以优化的，使用SpringBoot会让我们更方便，参考 [[p4:SpringBoot基本使用]]
 	- 部署
 		- Java程序运行在什么容器上？是怎么打包到容器上的
@@ -34,6 +37,9 @@ title:: learn:gangyu
 	- 每次点击页面为什么会执行AOP（子类）
 		- TODO 为什么会执行到IAOP 先去看下蓝天项目
 		  > 提示：先了解了前端请求调用后端（肯定是一个Servlet）后 怎么通过DispatcherServlet分发到不同方法上。看了下你们公司项目对应是LabelDispatcher
+		- 你们公司项目实际情况，如下 LabelDispatcher就类似于蓝天项目的DispatcherServlet：
+		  ![f9507eded592ff73790ca8b5f0cc8c3.jpg](../assets/f9507eded592ff73790ca8b5f0cc8c3_1666405883114_0.jpg)
+			- TODO 你去查看下LableDispatcher的源码确认下是不是
 	- DAO层怎么操作数据库的
 		- SQLDao基本执行逻辑：
 			- 拿到连接
@@ -43,10 +49,16 @@ title:: learn:gangyu
 				- 看了下ResultSet怎么返回封装成对象的，这里是你们公司自己开发的是基于JDBC（大概知道做了什么就可以
 					- 这个做得更好的是Mybatis框架，所以你可以Mybatis框架，看了Mybatis再回过头看这段代码就更明白了。
 	- 登录模块怎么做的
-		- 具体是一个用户注册登录后，后面继续访问的时候怎么判断它已经登录了后面不用再继续登录了
+		- 怎么判断一个用户是否登录了：具体是一个用户注册登录后，后面继续访问的时候怎么判断它已经登录了后面不用再继续登录了
 			- 通过什么来存储登录信息的，通过redis还是java自带的session
 				- 如果想了解更多可以了解一下cookiebase和JWT这种无状态的session方式【高阶】
+		- 什么时候判断一个用户是否登录了，比如在每次访问都要检查是否登录了嘛？
+			- 一般是通过filter 拦截器拦截每次请求判断是否登录
+			- 当然也有一些访问是不需要判断是否登录的，这块又是怎么处理的
+	-
+	-
 	- 你们公司异常这块怎么处理的
 		- 比如登录没有权限返回给页面是怎么提示的
+		  collapsed:: true
 			- 涉及异常知识可以参考 [[P4:exception]]
 -
