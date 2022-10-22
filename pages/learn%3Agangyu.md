@@ -2,6 +2,7 @@ public:: true
 title:: learn:gangyu
 
 - title:: learn:gangyu
+- 我的
 - 让别人知道你对你的行业挺了解
 	- 公司业务是干什么？
 	- 公司业务是怎么样的？是业务逻辑复杂还是并发量很高
@@ -45,3 +46,7 @@ title:: learn:gangyu
 		- 具体是一个用户注册登录后，后面继续访问的时候怎么判断它已经登录了后面不用再继续登录了
 			- 通过什么来存储登录信息的，通过redis还是java自带的session
 				- 如果想了解更多可以了解一下cookiebase和JWT这种无状态的session方式【高阶】
+	- 你们公司异常这块怎么处理的
+		- 比如登录没有权限返回给页面是怎么提示的
+			- 涉及异常知识可以参考 [[P4:exception]]
+-
