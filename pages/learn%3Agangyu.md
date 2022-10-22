@@ -15,9 +15,26 @@ title:: learn:gangyu
 			- 通过freemarker 模板，把数据写到模板里渲染成页面
 	- Java程序
 		- 基于封装的Spring嘛？
-		- 怎么一来外部jar包的，比如我需要使用redis希望使用reidsjar包怎么依赖进来的？有没有遇到过知道要使用redis但是不知道选哪个版本的问题。
+			- TODO 如果想了解Spring IOC 和AOP 那么参考[[Outline:手写Spring]] ，自己手写一个Spring
+				- 当然手写Spring之前要先把Spring的基本使用用会，请看对应Spring课程（待完善）
+		- 怎么一来外部jar包的，比如我需要使用redis希望使用redis jar包怎么依赖进来的？有没有遇到过知道要使用redis但是不知道选哪个版本的问题。
 	- 部署
 		- Java程序运行在什么容器上？是怎么打包到容器上的
-	- 封装Spring  （没用springBoot） 开发代码
-	  容器：tomcat  --> 代码放到 tomcat
-	  数据库mysql
+	- 数据库是什么
+		- 谁建的表，建表时候有没有考虑索引，有没有合理设计表（建表遵循什么原则）
+	- 运维层面
+		- 公司有几套环境
+			- 是不是有预发和生产环境
+-
+- 解析项目具体技术（重要）
+	- 每次点击页面为什么会执行AOP（子类）
+		- TODO 为什么会执行到IAOP 先去看下蓝天项目
+		  > 提示：先了解了前端请求调用后端（肯定是一个Servlet）后 怎么通过DispatcherServlet分发到不同方法上。看了下你们公司项目对应是LabelDispatcher
+	- DAO层怎么操作数据库的
+		- SQLDao基本执行逻辑：
+			- 拿到连接
+				- 你可以通过打断点确认下是通过连接池（打断点）拿到连接
+			- 通过statement.execute执行sql语句，返回ResultSet
+			- 拿到ResultSet后，把结果封装到对象里
+				- 看了下ResultSet怎么返回封装成对象的，这里是你们公司自己开发的是基于JDBC（大概知道做了什么就可以
+					- 这个做得更好的是Mybatis框架，所以你可以下Mybatis，看了Mybatis再回过头看这段代码就更明白了。
