@@ -1,10 +1,10 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "https://logseq.com",
+  "source": "file://",
   "elements": [],
   "appState": {
-    "viewBackgroundColor": "#FFF",
-    "gridSize": null
+    "gridSize": null,
+    "viewBackgroundColor": "#FFF"
   }
 }
