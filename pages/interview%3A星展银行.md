@@ -26,7 +26,8 @@ title:: interview:星展银行
 		- 腾讯云或者阿里云、亚马逊云
 	- open shift：k8s
 - 在线 coding
-	- TODO  这个是做算法类似的题目嘛？怎么准备呢？在哪里找资料呢？会给一个链接给我
+	- TODO  这个是做算法类似的题目嘛？怎么准备呢？在哪里找资料呢？
+		- 会给一个链接给我
 - 笔试题：
 	- 技术题
 - 工作流：
@@ -35,6 +36,9 @@ title:: interview:星展银行
 - ArrayList LinkedList
 - agile  / water 瀑布
 - 简历更新
+  collapsed:: true
 	- 更新到原始简历
-		- 占个坑 然后补英文简历
-	- 更新oracle
+	  collapsed:: true
+		- TODO 占个坑 然后补英文简历
+	- DONE 更新oracle
+- 英语要更好一点就可以跟更global的团队沟通，薪资也会高一些
