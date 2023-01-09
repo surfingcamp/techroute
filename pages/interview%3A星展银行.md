@@ -32,9 +32,10 @@ title:: interview:星展银行
 	- 技术题
 - 工作流：
 	- Camunda 类似于activity
-- SpringBoot
-- ArrayList LinkedList
-- agile  / water 瀑布
+- 第一次面谈遇到的问题：
+	- SpringBoot 聊到的技术点
+	- ArrayList LinkedList
+	- agile  / water 瀑布
 - 简历更新
   collapsed:: true
 	- 更新到原始简历
@@ -42,3 +43,4 @@ title:: interview:星展银行
 		- TODO 占个坑 然后补英文简历
 	- DONE 更新oracle
 - 英语要更好一点就可以跟更global的团队沟通，薪资也会高一些
+- 可能有的问题
