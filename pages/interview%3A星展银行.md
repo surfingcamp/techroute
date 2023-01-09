@@ -8,4 +8,8 @@ title:: interview:星展银行
 	- 锁： [[AQS]] [[Synchronized]]
 	- 集合
 		- [[p4:集合框架]]
+- 数据库：
+	- Oracle
+	- Mysql
+- 敏捷流程
 -

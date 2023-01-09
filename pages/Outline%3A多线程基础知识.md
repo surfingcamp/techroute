@@ -9,7 +9,7 @@ title:: Outline:多线程基础知识
 	- 等待
 		- 限期等待：time_waiting  `Thread.sleep(long)`/ obj.wait(long) /LockSupport.parkUnit(Long)
 			- Thread.sleep()与obj.wait()与LockSupport.park区别
-				- TODO LockSupport.park() 不会释放说 (原因是什么)
+				- TODO LockSupport.park() 不会释放锁(原因是什么)
 				- TODO LockSupport.park()在哪些框架中有使用 [[AQS]]
 		- 无限期等待
 	- block：阻塞状态，在用synchronize锁的情况下没有获取锁的状态
