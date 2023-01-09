@@ -25,10 +25,16 @@ title:: interview:星展银行
 	- 怎么上云操作：
 		- 腾讯云或者阿里云、亚马逊云
 	- open shift：k8s
-- 在线coding
-	- TODO  这个是做算法类似的题目嘛？怎么准备呢？在哪里找资料呢？
+- 在线 coding
+	- TODO  这个是做算法类似的题目嘛？怎么准备呢？在哪里找资料呢？会给一个链接给我
+- 笔试题：
+	- 技术题
 - 工作流：
 	- Camunda 类似于activity
 - SpringBoot
 - ArrayList LinkedList
-- agile  water 瀑布
+- agile  / water 瀑布
+- 简历更新
+	- 更新到原始简历
+		- 占个坑 然后补英文简历
+	- 更新oracle
