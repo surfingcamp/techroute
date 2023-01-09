@@ -29,3 +29,6 @@ title:: interview:星展银行
 	- TODO  这个是做算法类似的题目嘛？怎么准备呢？在哪里找资料呢？
 - 工作流：
 	- Camunda 类似于activity
+- SpringBoot
+- ArrayList LinkedList
+- agile  water 瀑布
