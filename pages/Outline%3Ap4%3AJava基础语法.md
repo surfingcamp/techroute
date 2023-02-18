@@ -1,6 +1,7 @@
-title:: p4:Java基础语法
+title:: Outline:p4:Java基础语法
 
 - title:: p4:Java基础语法
+- [[Outline:p4:Java基础语法:Java运行环境]]
 - 操作符
 	- 加减乘除 求余
 	- 括号
