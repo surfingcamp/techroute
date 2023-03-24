@@ -1,4 +1,4 @@
-title:: p4:工具类
+title:: p4:工具类:object和hashcode
 
 - Object方法
 	- hashcode方法 是native的方法底层已经实现了
