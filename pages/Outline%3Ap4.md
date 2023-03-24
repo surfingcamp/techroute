@@ -17,7 +17,7 @@ title:: Outline:p4
 - IO流
 - 反射
 - [[p4:工具类:object和hashcode]]
-- [[p4:跑起来后有兴趣再来学的]]
+- [[p4:跑起来后有兴趣再来学的]] #实现-markdown编写
 - [[p4:计算机基础]]
 - [[p4:Jvm]]
   id:: 631ff377-788b-45fa-859b-a35371198c7d
