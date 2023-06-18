@@ -13,6 +13,7 @@ title:: learn:gangyu
 -
 - 手写Spring
 - 公司项目具体技术栈
+  collapsed:: true
 	- 页面
 		- 页面布局和样式：前端html + css
 			- TODO  是有前端来写还是？已经做成了框架自己直接使用就可以
