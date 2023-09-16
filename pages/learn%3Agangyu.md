@@ -13,7 +13,6 @@ title:: learn:gangyu
 -
 - 手写Spring
 - 公司项目具体技术栈
-  collapsed:: true
 	- 页面
 		- 页面布局和样式：前端html + css
 			- TODO  是有前端来写还是？已经做成了框架自己直接使用就可以
@@ -21,7 +20,7 @@ title:: learn:gangyu
 			- 通过freemarker 模板，把数据写到模板里渲染成页面
 	- Java程序
 		- Java程序是基于Spring封装的嘛？
-			- TODO 如果想了解Spring IOC 和AOP 那么参考[[Outline:手写Spring]] ，自己手写一个Spring
+			- DONE 如果想了解Spring IOC 和AOP 那么参考[[Outline:手写Spring]] ，自己手写一个Spring
 				- 当然手写Spring之前要先把Spring的基本使用用会，请看对应Spring课程（待完善）
 			- 从你们项目了解到的事实好像是你们公司自己写了个类似Spring的框架：
 				-
