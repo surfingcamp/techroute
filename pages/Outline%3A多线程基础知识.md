@@ -18,4 +18,4 @@ title:: Outline:多线程基础知识
 - 线程怎么终止
 	- run()方法执行完自动终止
 	- Thread.stop()线程
--
+- TODO InterruptDemo02 这个要录视频，不然会解释不清楚 真的文字很解释不清楚 #video
